@@ -13,7 +13,7 @@ function MyRecords() {
   const items = Array.isArray(records) ? records : [];
 
   /**
-   * 刷新记录
+   * 刷新用户拍卖记录
    */
   const handleRefresh = async () => {
     await refetch?.();

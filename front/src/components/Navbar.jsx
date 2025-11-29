@@ -11,7 +11,7 @@ export default function Navbar({ selectedTab, onSelectTab, isDark = false }) {
   });
 
   /**
-   * 监听交易确认事件，刷新余额
+   * 监听交易确认事件
    */
   useEffect(() => {
     if (!address) return;
